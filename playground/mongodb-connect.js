@@ -25,8 +25,8 @@ MongoClient.connect(url, function (err, db) {
 
     db.collection('Users').insertOne({
         name: 'Shiraz Ahmed',
-        age: 21, 
-        location: 'Pakistan',
+        age: 20, 
+        location: 'karachi',
         nick: 'SherrY'
     }, (err, result) => {
         if(err) {
